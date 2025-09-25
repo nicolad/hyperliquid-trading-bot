@@ -1,3 +1,4 @@
+pub mod backtesting;
 pub mod config;
 pub mod endpoints;
 pub mod engine;
@@ -6,6 +7,8 @@ pub mod events;
 pub mod exchange;
 pub mod interfaces;
 pub mod key_manager;
+pub mod leaderboard;
 pub mod market_data;
+pub mod mirroring;
 pub mod risk;
 pub mod strategies;

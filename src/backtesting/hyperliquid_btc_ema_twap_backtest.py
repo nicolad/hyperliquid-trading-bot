@@ -47,8 +47,12 @@ from nautilus_trader.model.objects import Price
 from nautilus_trader.model.objects import Quantity
 from nautilus_trader.persistence.wranglers import TradeTickDataWrangler
 
-from hyperliquid_data_fetcher import DEFAULT_INTERVAL
-from hyperliquid_data_fetcher import fetch_trades_to_csv
+try:
+    from .hyperliquid_data_fetcher import DEFAULT_INTERVAL
+    from .hyperliquid_data_fetcher import fetch_trades_to_csv
+except ImportError:
+    from hyperliquid_data_fetcher import DEFAULT_INTERVAL
+    from hyperliquid_data_fetcher import fetch_trades_to_csv
 
 
 DEFAULT_DATA_PATH = Path(__file__).resolve().parent.parent.parent / "hyperliquid" / "btcusdc-trades.csv"

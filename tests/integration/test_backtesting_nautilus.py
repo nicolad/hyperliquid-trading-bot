@@ -151,6 +151,8 @@ def test_backtest_engine_processes_generated_ticks(tmp_path, monkeypatch):
     engine.run()
 
     assert strategy.received == 30
-
+    engine.stop()
+    engine.reset()
+    engine.dispose()
     engine.reset()
     engine.dispose()

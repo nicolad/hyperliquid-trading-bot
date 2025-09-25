@@ -77,11 +77,11 @@ risk_management:
   stop_loss_pct: 8.0           # Loss % before closing (1-20%)
   take_profit_enabled: false   # Auto-close positions on profit threshold
   take_profit_pct: 25.0        # Profit % before closing (5-100%)
-  
+
   # Account Protection
   max_drawdown_pct: 15.0       # Stop trading on account drawdown % (5-50%)
   max_position_size_pct: 40.0  # Max position as % of account (10-100%)
-  
+
   # Grid Rebalancing
   rebalance:
     price_move_threshold_pct: 12.0  # Rebalance trigger

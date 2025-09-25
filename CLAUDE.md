@@ -13,7 +13,7 @@ Follow test driven development.
 
 Use UV package manager for all commands in this repo:
 - `uv sync` - Install/sync dependencies
-- `uv add <package>` - Add new dependencies  
+- `uv add <package>` - Add new dependencies
 - `uv run <command>` - Run commands in the virtual environment
 - `uv run <script>` - Run Python scripts
 
@@ -21,7 +21,7 @@ Use UV package manager for all commands in this repo:
 
 This is a professional-grade automated grid trading system for Hyperliquid DEX supporting:
 - **Spot trading** - Direct asset ownership (cash trading)
-- **Perpetuals (perps)** - Leveraged derivatives trading  
+- **Perpetuals (perps)** - Leveraged derivatives trading
 - **Grid trading strategies** - Automated buy/sell orders across price ranges
 - **Risk management** - Stop loss, take profit, drawdown limits, and position sizing
 - **Real-time market data** - WebSocket price feeds and order book data
@@ -143,11 +143,11 @@ ls bots/*.yaml
 - **Testing**: All examples tested against real Hyperliquid testnet
 - **Categories**:
   - Authentication: Wallet setup and connection
-  - Market Data: Price feeds and market information  
+  - Market Data: Price feeds and market information
   - Account Info: Balance and position queries
   - Trading: Order placement and management
   - WebSockets: Real-time data streams
-  
+
   **Development style for learning examples**:
   - Place imports always at the top
   - Use short docstrings

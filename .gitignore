@@ -1,90 +1,76 @@
-# Python-generated files
-__pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
-
-# Virtual environments
-.venv/
-venv/
-env/
-
-# Environment and configuration files
-.env
-.env.local
-.env.production
-.env.development
-
-# Private keys and secrets
-.private_key
-*.key
-*.pem
-private_keys/
-secrets/
-
-# Trading data and logs
-data/
-logs/
-*.log
-*.csv
-trade_history/
-performance_data/
-
-# Bot state and cache files
-state/
-cache/
-*.json.backup
-*_state.json
-*_backup.json
-
-# Temporary files
-tmp/
-temp/
-*.tmp
-*.swp
-*.swo
-*~
-
-# IDE and editor files
-.vscode/
-.idea/
-*.sublime-*
-.DS_Store
-Thumbs.db
-
-# OS-specific files
-*.DS_Store
-*.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# pytest
-.pytest_cache/
-.coverage
-htmlcov/
-
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Profiling data
-.prof
-
-# Database files
-*.db
-*.sqlite
-*.sqlite3
 
 # Backup files
+# Bot state and cache files
+# Database files
+# Environment and configuration files
+# IDE and editor files
+# Jupyter Notebook
+# OS-specific files
+# Private keys and secrets
+# Profiling data
+# Python-generated files
+# Temporary files
+# Trading data and logs
+# Virtual environments
+# mypy
+# pytest
+*.DS_Store
+*.DS_Store?
 *.bak
+*.csv
+*.db
+*.egg-info
+*.json.backup
+*.key
+*.log
+*.pem
+*.py[oc]
+*.sqlite
+*.sqlite3
+*.sublime-*
+*.swo
+*.swp
+*.tmp
+*_backup.json
+*_state.json
 *~
+.DS_Store
+.Spotlight-V100
+.Trashes
+._*
+.coverage
+.dmypy.json
+.env
+.env.development
+.env.local
+.env.production
+.idea/
+.ipynb_checkpoints
+.mypy_cache/
+.private_key
+.prof
+.pytest_cache/
+.venv/
+.vscode/
 COPY_TRAD_SPEC.md
+Thumbs.db
+__pycache__/
+build/
+cache/
+data/
+dist/
+dmypy.json
+ehthumbs.db
+env/
+htmlcov/
+logs/
+performance_data/
+private_keys/
+secrets/
+state/
+target/
+temp/
+tmp/
+trade_history/
+venv/
+wheels/

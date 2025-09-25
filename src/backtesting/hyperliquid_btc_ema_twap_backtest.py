@@ -143,9 +143,16 @@ def main() -> None:
             interval=args.interval,
             minutes=args.minutes,
             testnet=not args.mainnet,
-            output_path=data_path,
-            max_trades_per_candle=max(1, args.max_trades_per_candle),
-        )
+     parser.add_argument(
+         "--max-trades-per-candle",
+         type=int,
+         default=10,
+         help="Synthetic trades to generate per candle (default: 10)",
+     )
+     args = parser.parse_args()
+     if args.max_trades_per_candle <= 0:
+         parser.error("--max-trades-per-candle must be positive")
+     return args
 
     trade_df = load_trade_data(data_path)
 
